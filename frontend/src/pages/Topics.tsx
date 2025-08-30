@@ -11,35 +11,72 @@ const Topics = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
   const topics = [
-    {
-      id: 'mathematics',
-      title: 'Mathematics',
-      description: 'Algebra, Geometry, Statistics and more',
-      icon: Calculator,
-      color: 'bg-blue-100'
-    },
-    {
-      id: 'science',
-      title: 'Science',
-      description: 'Biology, Chemistry, Physics fundamentals',
-      icon: Microscope,
-      color: 'bg-green-100'
-    },
-    {
-      id: 'english',
-      title: 'English',
-      description: 'Grammar, Literature, Writing skills',
-      icon: BookOpen,
-      color: 'bg-purple-100'
-    },
-    {
-      id: 'social-studies',
-      title: 'Social Studies',
-      description: 'History, Geography, Civics',
-      icon: Globe,
-      color: 'bg-orange-100'
-    }
-  ];
+  {
+    id: 'mathematics',
+    title: 'Mathematics',
+    description: 'Algebra, Geometry, Statistics and more',
+    icon: Calculator,
+    color: 'bg-blue-100'
+  },
+  {
+    id: 'science',
+    title: 'Science',
+    description: 'Biology, Chemistry, Physics fundamentals',
+    icon: Microscope,
+    color: 'bg-green-100'
+  },
+  {
+    id: 'english',
+    title: 'English',
+    description: 'Grammar, Literature, Writing skills',
+    icon: BookOpen,
+    color: 'bg-purple-100'
+  },
+  {
+    id: 'social-studies',
+    title: 'Social Studies',
+    description: 'History, Geography, Civics',
+    icon: Globe,
+    color: 'bg-orange-100'
+  },
+  {
+    id: 'pretechnical-studies',
+    title: 'Pretechnical Studies',
+    description: 'Basic technical drawing, woodwork, metalwork',
+    icon: Globe,
+    color: 'bg-yellow-100'
+  },
+  {
+    id: 'kiswahili',
+    title: 'Kiswahili',
+    description: 'Lugha ya taifa: fasihi, sarufi, na mawasiliano',
+    icon: BookOpen,
+    color: 'bg-red-100'
+  },
+  {
+    id: 'integrated-science',
+    title: 'Integrated Science',
+    description: 'Introduction to scientific concepts across disciplines',
+    icon: Microscope,
+    color: 'bg-teal-100'
+  },
+  {
+    id: 'agriculture',
+    title: 'Agriculture',
+    description: 'Crop production, livestock, soil science',
+    icon: Globe,
+    color: 'bg-green-200'
+  },
+  {
+    id: 'religious-education',
+    title: 'Religious Education',
+    description: 'Christian, Islamic and moral teachings',
+    icon: BookOpen,
+    color: 'bg-indigo-100'
+  }
+];
+
+  
 
   const filteredTopics = topics.filter(topic =>
     topic.title.toLowerCase().includes(searchTerm.toLowerCase()) ||

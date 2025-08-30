@@ -22,9 +22,10 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/topics" element={<Topics />} />
           <Route path="/learning/:topicId" element={<Learning />} />
+          <Route path="/learning/:topicId/:subtopicId" element={<Learning />} />
           <Route path="/my-learning" element={<MyLearning />} />
           <Route path="/qa" element={<QA />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          {/* Catch-all route */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
