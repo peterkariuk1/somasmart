@@ -1,73 +1,80 @@
-# Welcome to your Lovable project
+# Soma Smart 📘
 
-## Project info
+Welcome to **Soma Smart**, your intelligent learning companion.  
+This project provides an interactive and modern platform to explore topics, track your learning progress, and engage in Q&A discussions.  
 
-**URL**: https://lovable.dev/projects/0ba4555d-3c3b-4a58-81c7-964b8873298d
+---
 
-## How can I edit this code?
+## 🚀 Project Info
 
-There are several ways of editing your application.
+Soma Smart was designed and developed with the assistance of **ChatGPT**.  
+You can continue customizing and extending it using your preferred tools and workflow.  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0ba4555d-3c3b-4a58-81c7-964b8873298d) and start prompting.
+## 🛠️ Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+Follow these steps to run the project locally:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone the repository using the Git URL
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Run the development server with auto-reload
 npm run dev
-```
+Requirements:
 
-**Edit a file directly in GitHub**
+Node.js
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+npm
 
-**Use GitHub Codespaces**
+(Tip: Install Node.js via nvm
+ for easier version management.)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Editing the Project
 
-## What technologies are used for this project?
+You can edit this project in several ways:
 
-This project is built with:
+Use your favorite IDE (VS Code, WebStorm, etc.)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Edit directly in GitHub (open a file → ✏️ Edit → Commit)
 
-## How can I deploy this project?
+Use GitHub Codespaces for a cloud-based editor
 
-Simply open [Lovable](https://lovable.dev/projects/0ba4555d-3c3b-4a58-81c7-964b8873298d) and click on Share -> Publish.
+ech Stack
 
-## Can I connect a custom domain to my Lovable project?
+This project is built using:
 
-Yes, you can!
+Vite – blazing-fast build tool
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+React (TypeScript) – modern UI framework with type safety
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Tailwind CSS – utility-first styling
+
+ shadcn/ui – beautiful, accessible UI components
+
+Deployment
+
+You can deploy Soma Smart easily on platforms like:
+
+Vercel
+
+Netlify
+
+GitHub Pages
+
+Custom Domain
+
+Yes! You can connect a custom domain on your chosen hosting platform.
+For example, on Vercel:
+
+Go to Project → Settings → Domains.
+
+Click Add Domain and follow the steps.
+
