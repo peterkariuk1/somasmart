@@ -1,18 +1,18 @@
-# Soma Smart 📘
+# Soma Smart 
 
 Welcome to **Soma Smart**, your intelligent learning companion.  
 This project provides an interactive and modern platform to explore topics, track your learning progress, and engage in Q&A discussions.  
 
 ---
 
-## 🚀 Project Info
+##Project Info
 
 Soma Smart was designed and developed with the assistance of **ChatGPT**.  
 You can continue customizing and extending it using your preferred tools and workflow.  
 
 ---
 
-## 🛠️ Getting Started
+## Getting Started
 
 Follow these steps to run the project locally:
 
